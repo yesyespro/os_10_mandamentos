@@ -1,7 +1,7 @@
 GCC = gcc
 MAIN = arq.c
-LIB = util.h
-
+LIB = lib/util.h
+OUTPUT = Bin/Memoria
 
 all:
-	@$(GCC) $(MAIN) $(LIB) -o bin
+	@$(GCC) $(MAIN) $(LIB) -o $(OUTPUT)
